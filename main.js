@@ -12,7 +12,7 @@ function setTime() {
   hour.textContent = hours + ":";
   minute.textContent = minutes + ":";
   second.textContent = seconds;
-  if (hour < 13) {
+  if (hours < 12) {
     setDays = "AM";
   } else {
     setDays = "PM";
