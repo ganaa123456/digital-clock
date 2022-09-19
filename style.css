@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(time-g7f0f44e14_1920.jpg) no-repeat center center/cover;
+    color: #fff;
+    opacity: 0.9;
+    font-weight: bold;
+    
+    
+    
+
+}
+.digital {
+    display: flex;
+    font-size: 4rem;
+    display: none;
+    justify-content: center;
+}
+.l-heading {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+.setDay {
+    margin-left: 0.5rem;
+}
+
+.clock {
+    background: black;
+    padding: 1.5rem;
+}
